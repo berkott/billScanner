@@ -88,7 +88,7 @@ function processVideo() {
 
     if (detected === 1) {
         textArea.innerText = "Go to this link: ";
-        linkArea.innerText = "https://tinyurl.com/shiv17";
+        linkArea.innerText = "http://bit.ly/shiv17";
         detectedArea.innerText = "DETECTED";
     }
 
