@@ -86,7 +86,7 @@ function processVideo() {
 
     cv.imshow("canvasOutput", dst);
 
-    if (detected === 1) {
+    if (detected > 1) {
         textArea.innerText = "Go to this link: ";
         linkArea.innerText = "http://bit.ly/shiv17";
         detectedArea.innerText = "DETECTED";
